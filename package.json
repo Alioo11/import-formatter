@@ -1,0 +1,20 @@
+{
+  "name": "import-formatter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-ts": "tsc --watch",
+    "run-nodemon": "nodemon ./dist",
+    "start": "npm run watch-ts & npm run run-nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.8",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
